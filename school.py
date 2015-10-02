@@ -55,3 +55,23 @@ for st in Stu:
 
 
 # 2.1 Задание
+
+class_list = []
+teach_name = 'Владимир Вышкин'
+for teacher in Teach:
+  if teach_name == '%s %s' % (teacher['name'], teacher['surname']):
+    class_list = teacher['class']
+
+for el in class_list:
+  for student in Stu:
+    if student['class'] == el:
+        print('2.1', student['surname'], student['name'], student['middle_name'])
+
+# 2.2 Задание
+student_full_name = 'Иван Иванов'
+for student in Stu:
+  if student['name'] + ' ' + student['surname'] == student_full_name:
+    for teacher in Teach:
+        if student['school'] == teacher['school'] and student['class'] in teacher['class']:
+            print('2.2',teacher['name'] + ' ' + teacher['middle_name'] + ' ' + teacher['surname'])
+  break
