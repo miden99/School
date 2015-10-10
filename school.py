@@ -48,7 +48,7 @@ for st in Stu:
     surname=st['surname']
     i=0
     for el in Stu:
-        if el['surname']==surname:
+        if el['surname'] == surname:
             i+=1
             if i==2:
                 print('5.',st['name'],' ',st['surname'])
