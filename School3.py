@@ -76,12 +76,14 @@ teacher = {
 # re(Teachers, 'TeachReserv.json')
 
 # 8 номер
-new_class = '6 Г'
-fullname = 'Вышкин Владимир'
-for el in Teachers:
-    if el['surname']+' '+el['name'] == fullname:
-        for clas in el['class']:
-            if clas == new_class:
-                index = el['class'].index(clas)
-                el['class'].pop(index)
-re(Teachers, 'TeachReserv.json')
+# new_class = '6 Г'
+# fullname = 'Вышкин Владимир'
+# for el in Teachers:
+#     if el['surname']+' '+el['name'] == fullname:
+#         for clas in el['class']:
+#             if clas == new_class:
+#                 index = el['class'].index(clas)
+#                 el['class'].pop(index)
+# re(Teachers, 'TeachReserv.json')
+# Teachers[get_index(Teachers, 'Вышкин Владимир')]['class'].remove(new_class)
+# re(Teachers, 'TeachReserv.json')
