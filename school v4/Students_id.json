@@ -1,50 +1,65 @@
 [
   {
-    "name": "Иван",
-    "middle_name": "Игоревич",
-    "surname": "Иванов",
     "school": "67 школа",
+    "surname": "Иванов",
+    "name": "Иван",
+    "id": 1,
+    "middle_name": "Игоревич",
     "class": "5 А",
     "birth_day": "12.07.1998"
   },
   {
-    "name": "Александр",
-    "middle_name": "Петрович",
-    "surname": "Красный",
     "school": "12 гимназия",
+    "surname": "Красный",
+    "name": "Александр",
+    "id": 2,
+    "middle_name": "Петрович",
     "class": "6 А",
     "birth_day": "01.12.1997"
   },
   {
-    "name": "Матвей",
-    "middle_name": "Степанович",
-    "surname": "Петров",
     "school": "12 гимназия",
+    "surname": "Петров",
+    "name": "Матвей",
+    "id": 3,
+    "middle_name": "Степанович",
     "class": "6 А",
     "birth_day": "10.02.1997"
   },
   {
-    "name": "Артем",
-    "middle_name": "Валерьевич",
-    "surname": "Кузин",
     "school": "12 гимназия",
+    "surname": "Кузин",
+    "name": "Артем",
+    "id": 4,
+    "middle_name": "Валерьевич",
     "class": "7 Г",
     "birth_day": "10.02.1995"
   },
   {
-    "name": "Петр",
-    "middle_name": "Исаакович",
-    "surname": "Рузенштерн",
     "school": "12 гимназия",
+    "surname": "Рузенштерн",
+    "name": "Петр",
+    "id": 5,
+    "middle_name": "Исаакович",
     "class": "6 Г",
     "birth_day": "21.05.1996"
   },
   {
-    "name": "Александр",
-    "middle_name": "Валерьевич",
-    "surname": "Кузин",
     "school": "12 гимназия",
+    "surname": "Кузин",
+    "name": "Александр",
+    "id": 6,
+    "middle_name": "Валерьевич",
     "class": "8 Д",
     "birth_day": "21.05.1994"
+  },
+  {
+    "school": "67 шк",
+    "surname": "Иванов",
+    "name": "Иван",
+    "id": 7,
+    "middle_name": "Григорьевич",
+    "class": "7 Б",
+    "birth_day": "11.02.1995"
   }
 ]
