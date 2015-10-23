@@ -34,15 +34,16 @@ def student_surname(data, file_name):
 # student_surname(surname, Students)
 
 classroom = '7 В'
-teaid=[]
+
+teach_id = []
 
 
 # 3
 def teacher_id(data, file_name):
     for el in file_name:
         if data in el['class']:
-            teaid.append(el['id'])
-    print(teaid)
+            teach_id.append(el['id'])
+    print(teach_id)
 teacher_id(classroom, Teachers)
 
 
